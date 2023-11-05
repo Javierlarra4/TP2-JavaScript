@@ -32,6 +32,9 @@
   text-decoration: underline;
   text-decoration-style: dotted;
 }
+.fondo {
+  background-color: cornflowerblue;
+}
 /*Footer*/
 footer {
   background: linear-gradient(90deg, rgba(28,56,70,1) 0%, rgba(30,68,91,1) 50%, rgba(30,83,114,1) 100%);
