@@ -1,2 +1,2 @@
-# TP1-Front-End
-Primer trabajo práctico integrador de Front-End
+# TP2-JavaScript
+Primer trabajo práctico de JavaScript 
