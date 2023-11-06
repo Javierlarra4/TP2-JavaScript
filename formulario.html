@@ -93,14 +93,14 @@
           <h3 class="fw-semibold mb-3">VALOR DE TICKET $200</h3>
         </div>
         </div>
-        <form class="px-md-5 mx-md-5">
+        <form class="px-md-5 mx-md-5" id="form">
           <div class="container px-0 mb-3">
             <div class="row fs-6 mb-4 mx-0">
               <div class="col ps-0">
                 <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
               </div>
               <div class="col pe-0">
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+                <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="Apellido">
               </div>
             </div>
             <div class="row fs-6 mb-4 mx-0">
@@ -109,11 +109,11 @@
             <div class="row fs-6 mb-4 mx-0">
               <div class="col ps-0">
                 <p>Cantidad</p>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="cantidad">
+                <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="cantidad">
               </div>
               <div class="col pe-0">
                 <p>Categoría</p>
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" aria-label="Default select example" id="opt">
                   <option value="1">Estudiante</option>
                   <option value="2">Trainee</option>
                   <option value="3">Junior</option>
@@ -129,12 +129,12 @@
           <div class="row">
             <div class="col">
               <div class="d-grid gap-2">
-                <button class="btn f-button" type="button">Borrar</button>
+                <button class="btn f-button" type="button" id="borrar">Borrar</button>
               </div>
             </div>
             <div class="col">
               <div class="d-grid gap-2">
-                <button class="btn f-button" type="button">Resumen</button>
+                <button class="btn f-button" type="button" id="resumen">Resumen</button>
               </div>
             </div>
           </div>
@@ -170,7 +170,7 @@
         </div>
       </section>
     </footer>
-
+    <script src="./assets/script/formulario.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
